@@ -1,7 +1,7 @@
 package collections
 
 
-data class Employee(
+data class PreviousEmployee(
     val name:String,
     var salary: Int,
 )
@@ -15,7 +15,7 @@ data class Person(val name:Name, val address: Address, val ownsAPet: Boolean = t
 
 
 fun main(){
-    val emp = Employee("Priyanshu",1200)
+    val emp = PreviousEmployee("Priyanshu",1200)
     println(emp)
     emp.salary += 100
 
