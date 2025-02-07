@@ -1,0 +1,4 @@
+package encapsulaton
+
+class GetSet {
+}
